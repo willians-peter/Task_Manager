@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  background-color: #4d4a4b;
+}
+
+.Header > div {
+  width: 100%;
+  max-width: 1024px;
+  padding: 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.Header-img > img {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.Header h1 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.Header nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: right;
+  font-style: italic;
+}

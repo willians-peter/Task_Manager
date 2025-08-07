@@ -1,0 +1,40 @@
+.Footer {
+  background-color: #4d4a4b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.Footer .RichText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer .RichText a {
+  margin: 10px;
+  display: inline-block;
+}
+
+.Footer .RichText img {
+  width: 30px;
+  height: 30px;
+
+}
+
+.Footer h2 {
+  margin: 10px 0;
+}
+
+.Footer p {
+  margin: 5px 0;
+}
+.Footer a {
+  display: inline-flex;
+  color: #ffffff;
+}
+
+.Footer a hover {
+  text-decoration: underline;
+  color: #f8f8f8;
+}
