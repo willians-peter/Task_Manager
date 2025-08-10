@@ -22,7 +22,7 @@ function Footer() {
               <img src={faceLogo} alt="Logotipo do Facebock" />
             </a>
           </div>
-          <h2>Gerenciador de Tarefes</h2>
+          <h2>Gerenciador de Tarefas</h2>
           <p>
            Task Manager
           </p>

@@ -1,25 +1,6 @@
-.HomePage .container {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
-
-.HomePage .saudacao {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
-  font-size: 16px;
-  color: #410121;
-}
-
-.HomePage .right {
-  flex-grow: 1;
-}
-
-.HomePage .right img {
-  width: 80%;
-  height: 80%;
-  object-fit: cover;
+p {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 50px;
 }

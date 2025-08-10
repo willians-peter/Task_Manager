@@ -1,0 +1,76 @@
+.tarefa-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarefa-column {
+  width: calc(33.33% - 13.33px);
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; 
+  max-height: 500px; 
+}
+
+.tarefa-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  word-break: break-word; 
+}
+
+.tarefa-column li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tarefa-resumo {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.concluida-label {
+  background-color: #a5a3a1; 
+  color: #5c5859; 
+  padding: 2px 5px; 
+  border: 1px solid #6d6c6c; 
+  border-radius: 5px; 
+
+  height: 5px;
+  width: 5px;
+}
+
+.tarefa-progresso {
+  width: 100%;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px 0;
+}
+
+.tarefa-progresso-barra {
+  height: 40px;
+  background-color: #5c5859;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+.tarefa-progresso span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.5s;
+}
